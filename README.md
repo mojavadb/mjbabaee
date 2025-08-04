@@ -1,3 +1,13 @@
+### packages that I use on this project
+
+1- framer motaion (for animate)
+2- lucide (for icons)
+
+### made by Next js
+
+this webpage made by Next.js
+(Technologies used: typescript, tailwindCss, etc)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
