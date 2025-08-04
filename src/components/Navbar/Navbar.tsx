@@ -4,7 +4,7 @@ import React from "react";
 import { assets } from "@/assets/assets";
 import Image from "next/image";
 import { useTheme } from "@/contexts/ThemeContext";
-import { ArrowUpRight, CircleX, Menu, Moon, Sun } from "lucide-react";
+import { ArrowUp, ArrowUpRight, CircleX, Menu, Moon, Sun } from "lucide-react";
 import NameLogo from "./NameLogo";
 
 export default function Navbar() {
@@ -16,12 +16,12 @@ export default function Navbar() {
 
   function openMenu() {
     if (sideMenuRef.current) {
-      sideMenuRef.current.style.transform = "translateX(-100%)";
+      sideMenuRef.current.style.transform = "translateY(+100%)";
     }
   }
   function closeMenu() {
     if (sideMenuRef.current) {
-      sideMenuRef.current.style.transform = "translateX(+100%)";
+      sideMenuRef.current.style.transform = "translateY(-100%)";
     }
   }
 
@@ -126,12 +126,12 @@ export default function Navbar() {
 
       <ul
         ref={sideMenuRef}
-        className={`flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-full
-        top-0 bottom-0 w-full z-250 h-screen transition duration-500
+        className={`flex md:hidden flex-col gap-4 py-20 px-10 fixed -top-full
+        left-0 right-0 h-full z-250 h-screen transition duration-800
         ${isDarkMode ? "bg-darkHover" : "bg-lightHover"}`}
       >
-        <button className="absolute right-12 top-8" onClick={closeMenu}>
-          <CircleX color={isDarkMode ? "#ede" : "#343"} />
+        <button className="absolute left-48 bottom-18" onClick={closeMenu}>
+          <ArrowUp size={35} color={isDarkMode ? "#ede" : "#343"} />
         </button>
 
         <li>
