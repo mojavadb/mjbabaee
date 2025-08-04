@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root{
+    --darkTheme: #21102a;
+    --darkHover: #3a105a;
+    --lightHover: #fcf4ff;
+}
+.dark-theme > * {
+    background-color: var(--darkTheme);
+    color: var(--lightHover);
+}
+.bg-darkTheme{
+    background-color: var(--darkTheme);
+}
+.bg-darkHover{
+    background-color: var(--darkHover);
+}
+.bg-lightHover{
+    background-color: var(--lightHover);
+}
+.shadow-black:hover{
+    box-shadow: 4px 4px 0 #000;
+}
+.shadow-white:hover{
+    box-shadow: 4px 4px 0 #fff;
+}
