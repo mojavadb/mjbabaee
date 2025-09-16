@@ -4,7 +4,7 @@ import React from "react";
 import { assets } from "@/assets/assets";
 import Image from "next/image";
 import { useTheme } from "@/contexts/ThemeContext";
-import { ArrowUp, ArrowUpRight, CircleX, Menu, Moon, Sun } from "lucide-react";
+import { ArrowUp, ArrowUpRight, Menu, Moon, Sun } from "lucide-react";
 import NameLogo from "./NameLogo";
 
 export default function Navbar() {

@@ -44,9 +44,9 @@ export default function Header() {
         initial={{ y: -30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.6 }}
-        className={`text-3xl sm:text-5xl lg:text-[50px]`}
+        className={`text-3xl sm:text-5xl lg:text-[50px] font-semibold`}
       >
-        توسعه دهنده فرانت اند و علاقه مند به برنامه نویسی
+        توسعه دهنده فرانت اند و برنامه نویس
       </motion.h1>
 
       <motion.p

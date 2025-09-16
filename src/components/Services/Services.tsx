@@ -31,8 +31,8 @@ function Services() {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-12"
       >
-        با حدود دو سال تجربه در توسعه فرانت اند، آماده برای ارائه برخی خدمات
-        برای کمک به شما در زمینه های مختلف هستم.
+        با حدود دو سال تجربه در توسعه فرانت اند، آماده برای ارائه خدمات برای کمک
+        به شما در زمینه های مختلف هستم.
       </motion.p>
       <motion.div
         initial={{ y: 30, opacity: 0 }}
