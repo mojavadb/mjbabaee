@@ -30,11 +30,6 @@ function Footer() {
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/mojavadb">
-              <span>لینکدین</span>
-            </a>
-          </li>
-          <li>
             <a target="_blank" href="https://t.me/mojavadb98">
               تلگرام
             </a>

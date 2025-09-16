@@ -82,7 +82,7 @@ export default function Header() {
           className={`px-6 py-2 border border-gray-500 rounded-full flex items-center gap-2
         ${isDarkMode ? "bg-indigo-50 text-black" : ""}`}
         >
-          <span>رزومه من</span>
+          <span>رزومه کامل</span>
           <Download size={20} />
         </motion.a>
       </div>

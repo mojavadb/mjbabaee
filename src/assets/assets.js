@@ -45,13 +45,14 @@ export const workData = [
     title: "full-stack project",
     description: "وب سایت پورتفولیو پیاده شده با Next Js.",
     bgImage: "/work-1.png",
-    link: "",
+    link: "https://github.com/mojavadb/mjbabaee",
   },
   {
-    title: "",
-    description: "",
+    title: "full-stack project",
+    description:
+      "پیاده سازی کتاب 504 کلمه ضروری انگلیسی، یادگیری گام به گام و ...",
     bgImage: "/work-2.png",
-    link: "",
+    link: "https://github.com/mojavadb/essential-words-book",
   },
   {
     title: "",
@@ -96,7 +97,7 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "زبان ها",
-    description: "HTML, CSS, JavaScript, TypeScript",
+    description: "HTML, CSS, JavaScript, TypeScript, C-sharp",
   },
   {
     icon: assets.project_icon,
