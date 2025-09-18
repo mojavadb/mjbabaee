@@ -60,18 +60,21 @@ function Work() {
                     {title}
                   </h2>
                   <div className="w-8 h-8 flex items-center justify-center">
-                    <a href={link}>
-                      <Send color="#212" size={20} />
-                    </a>
+                    <Send color="#212" size={20} />
                   </div>
                 </div>
                 <p
-                  className={`text-xs ${
+                  className={`mb-3 text-xs ${
                     isDarkMode ? "text-gray-700" : "text-stone-700"
                   }`}
                 >
                   {description}
                 </p>
+                <div className="flex items-center justify-center text-xs text-white">
+                  <a href={link} className="p-1 bg-red-700 rounded-sm">
+                    آدرس سایت
+                  </a>
+                </div>
               </div>
             </div>
           </div>

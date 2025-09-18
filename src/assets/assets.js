@@ -45,7 +45,7 @@ export const workData = [
     title: "full-stack project",
     description: "وب سایت پورتفولیو پیاده شده با Next Js.",
     bgImage: "/work-1.png",
-    link: "https://github.com/mojavadb/mjbabaee",
+    link: "",
   },
   {
     title: "full-stack project",
@@ -55,10 +55,10 @@ export const workData = [
     link: "https://github.com/mojavadb/essential-words-book",
   },
   {
-    title: "",
-    description: "",
+    title: "مار بازی",
+    description: "پیاده شده با html, css, js خالی. مناسب برای اوقات خالی!",
     bgImage: "/work-3.png",
-    link: "",
+    link: "https://snake-game-fawn-two.vercel.app",
   },
   {
     title: "",
